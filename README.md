@@ -1,4 +1,4 @@
-# Self-Deletion of Executable Files in Windows using Native API
+# Self-Deletion of Executable Files in Windows using Native API @Pyramidyon
 
 https://github.com/pyramidyon/Native-Self-File-Melting/assets/88564775/46cd1062-46d3-48d1-906c-7b0dbb2bd08b
 
@@ -14,3 +14,4 @@ Windows locks the executable file of a running process and in the use case of ma
 - Manages memory with using NtAllocateVirtualMemory and NtFreeVirtualMemory, for real mal devs replace with ...;)
 - Executes file deletion by first renaming the file stream, then marking the file for deletion using direct system calls to manipulate file states.
 
+@Pyramidyon
